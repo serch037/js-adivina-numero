@@ -1,0 +1,70 @@
+body{
+    font-family: "Ubuntu";
+    font-size: 40px;
+    /*background-color: #ffb2dc;*/
+}
+.juego{
+    width: 800px;
+    height: 300px;
+    /*background-color: #c4006a;*/
+    border-radius: 10px;
+    color: white;
+    margin: -150px 0 0 -400px;
+    text-align:  center;
+    padding-top: 30px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+.juego input{
+    width: 80px;
+    height: 80px;
+    border: none;
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+}
+.juego button{
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    border: none;
+    background-color: #7f0045;
+    color: white;
+    display: inline-block;
+}
+.resp{
+    font-size:  30px;
+}
+
+.main-wrapper{
+    min-height: 100vh;
+}
+
+.config-wrapper{
+    border:1px solid;
+    font-size: 1rem;
+    min-height: 100vh;
+    text-align: center;
+}
+
+
+.config-wrapper-2{
+    border: 2px solid black;
+    border-radius: 20px;
+    max-width: 500px;
+    margin:0 auto;
+}
+
+.config-wrapper-2 > label {
+    display:block;
+    padding: 20px;
+}
+
+.config-wrapper-2 > label > input {
+    margin-left: 10px;
+}
+
+.config-wrapper-2 > label > input[type="number"] {
+    width:50px;
+}
